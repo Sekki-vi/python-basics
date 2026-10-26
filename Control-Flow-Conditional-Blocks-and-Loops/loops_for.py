@@ -23,3 +23,14 @@ for i in range(5):
         continue
     print("i is:", i)
 # will print 0, 1, 3, 4
+
+x = 'abcd'
+for i in x:
+    print(i)
+    x.upper()
+# will print a, b, c, d
+
+for i in x:
+    print(i.upper())
+# will print A, B, C, D
+
