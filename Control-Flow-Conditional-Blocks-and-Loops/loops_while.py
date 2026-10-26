@@ -7,3 +7,11 @@ while guess != secret_number:
     guess = int(input("Guess a number: "))
 else:
     print("You guessed the number correctly!")
+
+i = 2
+while True:
+    if i % 3 == 0:
+        break
+    print(i)
+    i += 2
+# will print 2, 4 and break on 6
